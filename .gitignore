@@ -9,3 +9,11 @@ data/*
 *.key
 *session*
 *auth*
+
+# Keep source and test files tracked
+!src/**/session-manager.js
+!tests/**/session.test.js
+
+# Environment secrets
+.env.*
+!.env.example
